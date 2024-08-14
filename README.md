@@ -123,3 +123,38 @@ I added the following badges:
 * Dataset: Potato Plant Diseases
 
 These badges provide a quick and easy way to see the key technologies and dependencies
+
+Here's another version of the README:
+
+**Potato Disease Detection: A Deep Learning Approach 🥔**
+=====================================================
+
+**Overview 🌱**
+---------------
+
+This project uses deep learning techniques to detect potato diseases from images. The goal is to develop a model that can accurately identify diseases such as early blight, late blight, and healthy plants.
+
+**Motivation 🌪️**
+-----------------
+
+Potato diseases are a significant threat to global food security, causing billions of dollars in losses each year. Traditional methods of disease detection are time-consuming and require expertise. This project aims to develop a machine learning model that can detect potato diseases quickly and accurately, enabling farmers and researchers to take targeted action to prevent the spread of disease.
+
+**Dataset 📁**
+-------------
+
+The dataset used in this project consists of 2152 images of potato plants, categorized into three classes: early blight, late blight, and healthy.
+
+**Methodology 🔍**
+-----------------
+
+Our approach involves the following steps:
+
+1. **Data Preprocessing 🔄**: We apply random transformations to the images to artificially increase the size of the training set.
+2. **Model Selection 🤔**: We compare the performance of four pre-trained models: RESNET, Inception, Xception & NASnetMobile on the test dataset.
+3. **Fine-tuning 🔩**: We fine-tune the models by unfreezing the weights and training it on the augmented training data.
+4. **Hyperparameter Tuning 🔧**: We define a new model architecture with a custom classification head on top of a pre-trained base model, and compile it with Adam optimizer and sparse categorical cross-entropy loss.
+
+**Results 📈**
+--------------
+
+Our results show that the Xception model performs best on the test dataset, achieving an accuracy of 97.
