@@ -1,15 +1,14 @@
 **Potato Disease Detection: A Deep Learning Approach 🥔**
 =====================================================
 
+A Machine Learning Tool to Prevent the Spread of Potato Diseases
+
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](https://github.com/PhuongFX/ButterFlySpace/blob/main/LICENSE)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-2.x-red.svg)](https://keras.io/)
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green.svg)](https://opensource.org/)
 [![Dataset](https://img.shields.io/badge/Dataset-Potato%20Plant%20Diseases-green.svg)](https://www.kaggle.com/hafiznouman786/potato-plant-diseases-data)
-
-
-A Machine Learning Tool to Prevent the Spread of Potato Diseases
 
 
 ## `Inspiration` 🌪️
