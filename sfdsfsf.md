@@ -7,6 +7,16 @@
 [![Keras](https://img.shields.io/badge/Keras-2.x-red.svg)](https://keras.io/)
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green.svg)](https://opensource.org/)
 
+
+**Badges 🏆**
+-------------
+
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.4-orange.svg)](https://www.tensorflow.org/)
+[![Keras](https://img.shields.io/badge/Keras-2.4-orange.svg)](https://keras.io/)
+[![Dataset](https://img.shields.io/badge/Dataset-Potato%20Plant%20Diseases-green.svg)](https://www.kaggle.com/hafiznouman786/potato-plant-diseases-data)
+
 **Author:** Phuong Phan
 **Date:** 14.July.2024
 **Dataset:** Potato Plant Diseases
@@ -70,6 +80,18 @@ Our approach involves the following steps:
 4. **Hyperparameter Tuning 🔧**: We define a new model architecture with a custom classification head on top of a pre-trained base model, and compile it with Adam optimizer and sparse categorical cross-entropy loss.
 
 
+
+**Model Architectures 🤖**
+-------------------------
+
+We use four pre-trained models:
+
+1. **Xception 🤩**: A deep learning model that uses a novel architecture to achieve state-of-the-art results on image classification tasks.
+2. **ResNet50 📈**: A popular deep learning model that uses residual connections to ease the training process.
+3. **Inception 🤔**: A deep learning model that uses multiple parallel branches to capture features at different scales.
+4. **NASNetMobile 📱**: A deep learning model that uses neural architecture search to find the optimal architecture for mobile devices.
+
+
 **Model Comparison 📊**
 -------------------
 
@@ -100,3 +122,15 @@ def predict(model, img):
 ------
 
 I hope you found it informative and engaging. If you enjoyed the content and found it helpful. Your feedback is valuable and encourages me to create more content like this in the future.
+
+
+**Get Involved 🤝**
+------------------
+
+We're always looking for collaborators and contributors to help us improve this project. If you're interested in getting involved, please don't hesitate to reach out.
+
+
+**Conclusion 🌟**
+----------------
+
+This project demonstrates the potential of machine learning in detecting potato diseases using image data. We hope that our work will inspire further research and development in precision agriculture.
