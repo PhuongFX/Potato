@@ -29,46 +29,27 @@ A Machine Learning Tool to Prevent the Spread of Potato Diseases
 
 ## `Dataset` 📊
 
-Potato Plant Diseases: is a comprehensive collection of images meticulously categorized into three distinct classes: early blight, late blight, and healthy. 
+* Potato Plant Diseases: is a comprehensive collection of images meticulously categorized into three distinct classes: early blight, late blight, and healthy. 
 
-Each class represents a specific condition affecting potato crops, enabling researchers and agricultural experts to delve into the intricacies of disease identification, progression, and management.
+* Each class represents a specific condition affecting potato crops, enabling researchers and agricultural experts to delve into the intricacies of disease identification, progression, and management.
 
 
 ## `Methodology` 🔍
 
-1. **Data Augmentation**: We've applied random transformations to our images to artificially increase the size of our training dataset.
-2. **Model Selection**: We've evaluated the performance of four different models: Xception, ResNet50, Inception, and NASNetMobile.
-3. **Fine-tuning**: We've fine-tuned our models using learning rate reduction and early stopping callbacks to prevent overfitting.
-4. **Hyperparameter Tuning**: We've optimized our model's hyperparameters using a grid search approach.
-
-**Methodology**
---------------
-
-1. **Data Augmentation**: Apply random transformations to the images to artificially increase the size of the training set using TF-keras pre-processing layers.
-2. **Evaluation**: Performance test accuracy and loss of 4 Models: RESNET, Inception, Xception & NASnetMobile on the test dataset. Visualizing curves over epochs using matplotlib to identify potential overfitting or underfitting issues.
-3. **Fine-tuning**: 4 Models model is specifically fine-tuned further by unfreezing the weights and training it on the augmented training data. With learning rate reduction and early stopping callbacks to prevent overfitting, and its test accuracy is evaluated.
-4. **Hyperparameter Tuning**: The code defines a new model architecture with a custom classification head on top of a pre-trained base model, and compiles it with Adam optimizer and sparse categorical cross-entropy loss.
+1. **Data Preprocessing 🔄**: Applying random transformations to the images to artificially increase the size of the training set using TF-keras pre-processing layers.
+2. **Model Selection 🤔**: Performance test accuracy and loss of 4 pre-trained models: RESNET, Inception, Xception & NASnetMobile 
+3. **Fine-tuning 🔩**: Unfreezing the weights and training models on the augmented training data. Using learning rate reduction and early stopping callbacks to prevent overfitting.
+4. **Hyperparameter Tuning 🔧**: Using a grid search approach, Adam optimizer and sparse categorical cross-entropy loss.5.
 5. **Prediction**: Made on a random sample of images from the validation set. Incorrect predictions are also identified and visualized.
-
-**Methodology 🔍**
------------------
-
-Our approach involves the following steps:
-
-1. **Data Preprocessing 🔄**: We apply random transformations to the images to artificially increase the size of the training set.
-2. **Model Selection 🤔**: We compare the performance of four pre-trained models: RESNET, Inception, Xception & NASnetMobile on the test dataset.
-3. **Fine-tuning 🔩**: We fine-tune the models by unfreezing the weights and training it on the augmented training data.
-4. **Hyperparameter Tuning 🔧**: We define a new model architecture with a custom classification head on top of a pre-trained base model, and compile it with Adam optimizer and sparse categorical cross-entropy loss.
 
 
 
 ## `Model Architectures` 🤖
 
-
-1. **Xception**: A deep learning model that uses a novel architecture to achieve state-of-the-art results on image classification tasks.
-2. **ResNet50**: A popular deep learning model that uses residual connections to ease the training process.
-3. **Inception**: A deep learning model that uses multiple parallel branches to capture features at different scales.
-4. **NASNetMobile**: A deep learning model that uses neural architecture search to find the optimal architecture for mobile devices.
+* **Xception**: A deep learning model that uses a novel architecture to achieve state-of-the-art results on image classification tasks.
+* **ResNet50**: A popular deep learning model that uses residual connections to ease the training process.
+* **Inception**: A deep learning model that uses multiple parallel branches to capture features at different scales.
+* **NASNetMobile**: A deep learning model that uses neural architecture search to find the optimal architecture for mobile devices.
 
 
 > ### Model Performance 📊 
