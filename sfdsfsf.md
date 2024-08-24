@@ -62,7 +62,6 @@ A Machine Learning Tool to Prevent the Spread of Potato Diseases
 | NASNetMobile | 0.8999 | 0.92 |
 
 ## `Predicting`
---------------
 
 I've implemented a prediction function that takes an image as input and returns the predicted class label and confidence score.
 ```python
