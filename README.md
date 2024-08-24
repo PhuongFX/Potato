@@ -28,7 +28,7 @@ A Machine Learning Tool to Prevent the Spread of Potato Diseases
 
 ## `Dataset` 📊
 
-* Potato Plant Diseases: is a comprehensive collection of images meticulously categorized into three distinct classes: early blight, late blight, and healthy. 
+* [🌱 Potato Plant Diseases Data 🍂](https://www.kaggle.com/hafiznouman786/potato-plant-diseases-data) is a comprehensive collection of images meticulously categorized into three distinct classes: early blight, late blight, and healthy. 
 
 * Each class represents a specific condition affecting potato crops, enabling researchers and agricultural experts to delve into the intricacies of disease identification, progression, and management.
 
