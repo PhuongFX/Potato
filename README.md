@@ -8,7 +8,7 @@ A Machine Learning Tool to Prevent the Spread of Potato Diseases
 [![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-2.x-red.svg)](https://keras.io/)
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green.svg)](https://opensource.org/)
-[![Dataset](https://img.shields.io/badge/Dataset-Potato%20Plant%20Diseases-green.svg)](https://www.kaggle.com/hafiznouman786/potato-plant-diseases-data)
+[![Dataset](https://img.shields.io/badge/Dataset-Potato%20Plant%20Diseases-gr.svg)](https://www.kaggle.com/hafiznouman786/potato-plant-diseases-data)
 
 
 ## `Inspiration` 🌪️
