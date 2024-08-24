@@ -34,9 +34,7 @@ Potato Plant Diseases: is a comprehensive collection of images meticulously cate
 Each class represents a specific condition affecting potato crops, enabling researchers and agricultural experts to delve into the intricacies of disease identification, progression, and management.
 
 
-
-
-**Methodology 🔍**
+## `Methodology` 🔍
 
 1. **Data Augmentation**: We've applied random transformations to our images to artificially increase the size of our training dataset.
 2. **Model Selection**: We've evaluated the performance of four different models: Xception, ResNet50, Inception, and NASNetMobile.
@@ -64,19 +62,16 @@ Our approach involves the following steps:
 
 
 
-**Model Architectures 🤖**
--------------------------
-
-We use four pre-trained models:
-
-1. **Xception 🤩**: A deep learning model that uses a novel architecture to achieve state-of-the-art results on image classification tasks.
-2. **ResNet50 📈**: A popular deep learning model that uses residual connections to ease the training process.
-3. **Inception 🤔**: A deep learning model that uses multiple parallel branches to capture features at different scales.
-4. **NASNetMobile 📱**: A deep learning model that uses neural architecture search to find the optimal architecture for mobile devices.
+## `Model Architectures` 🤖
 
 
-**Model Comparison 📊**
--------------------
+1. **Xception**: A deep learning model that uses a novel architecture to achieve state-of-the-art results on image classification tasks.
+2. **ResNet50**: A popular deep learning model that uses residual connections to ease the training process.
+3. **Inception**: A deep learning model that uses multiple parallel branches to capture features at different scales.
+4. **NASNetMobile**: A deep learning model that uses neural architecture search to find the optimal architecture for mobile devices.
+
+
+> ### Model Performance 📊 
 
 | Model | Valid Dataset Accuracy | Test Dataset Accuracy |
 | --- | --- | --- |
