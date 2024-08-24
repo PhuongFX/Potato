@@ -77,19 +77,24 @@ def predict(model, img):
     return predicted_class, confidence
 ```
 
-**GIF**
-------
 
-I hope you found it informative and engaging. If you enjoyed the content and found it helpful. Your feedback is valuable and encourages me to create more content like this in the future.
-
-
-**Get Involved 🤝**
-------------------
-
-We're always looking for collaborators and contributors to help us improve this project. If you're interested in getting involved, please don't hesitate to reach out.
+## `Get Involved!` 😌
+This project demonstrates the potential of deep learning and computer vision for potato diseases identification. 
+The model achieves high accuracy and can be used as a starting point for further research and development in in precision agriculture.
 
 
-**Conclusion 🌟**
-----------------
+I hope you found this project informative and engaging! 😊  
+If you're interested in collaborating and contributing to the project, please let me know! I'd love to hear from you.
+* [Follow me on GitHub](https://github.com/PhuongFX)
+* [Follow me on Hugging Face](https://huggingface.co/PhuongFX)
 
-This project demonstrates the potential of machine learning in detecting potato diseases using image data. We hope that our work will inspire further research and development in precision agriculture.
+
+## `Getting Started` 🚀
+
+To get started with this project, you'll need to:
+
+* Install the required libraries, including TensorFlow, Keras, and OpenCV 📦
+* Download the dataset from Kaggle 📈
+* Run the code to train and evaluate the model 🤖
+
+Enjoy working with the content! 😊
