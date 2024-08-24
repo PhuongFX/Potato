@@ -77,9 +77,19 @@ def predict(model, img):
     return predicted_class, confidence
 ```
 
+## `Acknowledgments` 🙏
+
+* Kaggle dataset: 🌱 Potato Plant Diseases Data 🍂
+* TensorFlow and Keras libraries for deep learning
+* Matplotlib and Seaborn libraries for data visualization
+
+## `🙅‍♂️Disclaimer`
+
+> This project is licensed under AGPL-3.0 License and is for personal use only and should not be used for commercial purposes.
+The pre-trained model and may not always produce accurate results.
 
 ## `Get Involved!` 😌
-This project demonstrates the potential of deep learning and computer vision for potato diseases identification. 
+This project demonstrates the potential of deep learning for potato diseases identification. 
 The model achieves high accuracy and can be used as a starting point for further research and development in in precision agriculture.
 
 
