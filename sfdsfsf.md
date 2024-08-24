@@ -8,40 +8,32 @@
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green.svg)](https://opensource.org/)
 [![Dataset](https://img.shields.io/badge/Dataset-Potato%20Plant%20Diseases-green.svg)](https://www.kaggle.com/hafiznouman786/potato-plant-diseases-data)
 
-**Author:** Phuong Phan
-**Date:** 14.July.2024
-**Dataset:** Potato Plant Diseases
 
-**Overview 🌱**
----------------
+A Machine Learning Tool to Prevent the Spread of Potato Diseases
 
-We're excited to share our project on potato disease detection using machine learning
-This project uses deep learning techniques to detect potato diseases from images. 
-This project is inspired by the innovative approaches of PlantVillage Insights, and we hope to contribute to the development of precision agriculture.
-The goal is to develop a model that can accurately identify diseases such as early blight, late blight, and healthy plants.
 
-* **Dataset**: 2152 images of potato plants, each labeled with one of three classes: early blight, late blight, or healthy.
-* **Model**: A convolutional neural network (CNN) with transfer learning and data augmentation.
-* **Accuracy**: 97.3% on our test dataset.
+## `Inspiration` 🌪️
 
-**Motivation 🌪️**
------------------
 
-Potato diseases are a significant threat to global food security, causing billions of dollars in losses each year. Traditional methods of disease detection are time-consuming and require expertise. This project aims to develop a machine learning model that can detect potato diseases quickly and accurately, enabling farmers and researchers to take targeted action to prevent the spread of disease.
+> The devastating impact of potato diseases on global food security, with losses estimated to be in the billions, has long been a pressing concern for agricultural researchers and farmers alike.
 
-**Inspiration**
----------------
+> However, accurate detection of these diseases remains a significant challenge, hindering our ability to develop effective management strategies and ensure a stable food supply.
 
-The devastating impact of potato diseases on global food security, with losses estimated to be in the billions, has long been a pressing concern for agricultural researchers and farmers alike. However, accurate detection of these diseases remains a significant challenge, hindering our ability to develop effective management strategies and ensure a stable food supply. This project embarks on a journey to develop a machine learning model capable of detecting potato diseases using image data, leveraging the power of computer vision and deep learning to revolutionize the field of precision agriculture, as inspired by the innovative approaches of PlantVillage Insights.
 
-**Problem Statement**
--------------------
+## `Solution ` 🌱
 
-The potato disease dataset is a comprehensive collection of images meticulously categorized into three distinct classes: early blight, late blight, and healthy. Each class represents a specific condition affecting potato crops, enabling researchers and agricultural experts to delve into the intricacies of disease identification, progression, and management.
+* Develop a machine learning model capable of detecting potato diseases using image data, leveraging the power of computer vision and deep learning to revolutionize the field of precision agriculture, as inspired by the innovative approaches of PlantVillage Insights.
 
-** Solution 💡**
+* Using a combination of convolutional neural networks (CNNs) and transfer learning to achieve high accuracy.
 
-A machine learning model that can detect potato diseases from images. Using a combination of convolutional neural networks (CNNs) and transfer learning to achieve high accuracy.
+
+## `Dataset` 📊
+
+Potato Plant Diseases: is a comprehensive collection of images meticulously categorized into three distinct classes: early blight, late blight, and healthy. 
+
+Each class represents a specific condition affecting potato crops, enabling researchers and agricultural experts to delve into the intricacies of disease identification, progression, and management.
+
+
 
 
 **Methodology 🔍**
