@@ -61,10 +61,10 @@ A Machine Learning Tool to Prevent the Spread of Potato Diseases
 | Inception | 0.9577 | 0.95 |
 | NASNetMobile | 0.8999 | 0.92 |
 
-**Predicting**
+## `Predicting`
 --------------
 
-We've implemented a prediction function that takes an image as input and returns the predicted class label and confidence score.
+I've implemented a prediction function that takes an image as input and returns the predicted class label and confidence score.
 ```python
 def predict(model, img):
     img_array = tf.keras.preprocessing.image.img_to_array(images[i].numpy())
